@@ -1,0 +1,46 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: release/2.1.1
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/lsmeng/MUSICBP:
+      branch: master
+      repo: https://github.com/lsmeng/MUSICBP.git
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/lsmeng/MUSICBP git:
+        commands:
+        - /usr/bin/env sh .sqa/script.flaky-zucchini-toucan.sh
+        container: qc.acc_lanky-smalt-kakapo
+  QC.Doc:
+    repos:
+      github.com/lsmeng/MUSICBP find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.chummy-plum-bat.sh
+        container: qc.doc_scanty-coral-quokka
+      github.com/lsmeng/MUSICBP git:
+        commands:
+        - /usr/bin/env sh .sqa/script.skimpy-sangria-termite.sh
+        container: qc.doc_geeky-brown-barracuda
+      github.com/lsmeng/MUSICBP markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.randy-rust-anteater.sh
+        container: qc.doc_silly-lavender-setter
+  QC.Lic:
+    repos:
+      github.com/lsmeng/MUSICBP licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.scummy-teal-boar.sh
+        container: qc.lic_pokey-chocolate-rottweiler
+  QC.Ver:
+    repos:
+      github.com/lsmeng/MUSICBP get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.crappy-alizarin-gerbil.sh
+        container: qc.ver_cheeky-mauve-macaw
+timeout: 5400
