@@ -1,6 +1,6 @@
 {
     "meta": {
-        "version": "3.1.0",
+        "version": "3.2.1",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/MUSICBP.git.assess.sqaaas/master/.report/assessment_output.json"
     },
     "repository": [
@@ -49,10 +49,10 @@
                                     "name": "QC.Acc github.com/lsmeng/MUSICBP git",
                                     "status": "SUCCESS",
                                     "stdout_command": [
-                                        "git rev-parse --is-inside-work-tree"
+                                        "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/34/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/34/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -104,7 +104,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 2511}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -155,7 +155,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 2511}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -207,7 +207,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 2511}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -253,10 +253,10 @@
                                     "name": "QC.Doc github.com/lsmeng/MUSICBP git",
                                     "status": "SUCCESS",
                                     "stdout_command": [
-                                        "git rev-parse --is-inside-work-tree"
+                                        "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/52/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/52/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -295,10 +295,10 @@
                                     "name": "QC.Doc github.com/lsmeng/MUSICBP markdownlint",
                                     "status": "FAILED",
                                     "stdout_command": [
-                                        "mdl --json ."
+                                        "mdl --json  ."
                                     ],
                                     "stdout_text": "[{\"filename\":\"./README.md\",\"line\":2,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./README.md\",\"line\":4,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./README.md\",\"line\":6,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./README.md\",\"line\":18,\"rule\":\"MD009\",\"aliases\":[\"no-trailing-spaces\"],\"description\":\"Trailing spaces\"},{\"filename\":\"./README.md\",\"line\":2,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":4,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":6,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":8,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":10,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":12,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":14,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":16,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":18,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\"},{\"filename\":\"./README.md\",\"line\":1,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\"},{\"filename\":\"./README.md\",\"line\":16,\"rule\":\"MD034\",\"aliases\":[\"no-bare-urls\"],\"description\":\"Bare URL used\"}]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/61/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/61/log?consoleFull"
                                 },
                                 "level": "RECOMMENDED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -386,10 +386,10 @@
                                     "name": "QC.Lic github.com/lsmeng/MUSICBP licensee",
                                     "status": "SUCCESS",
                                     "stdout_command": [
-                                        "licensee detect . --confidence 60 --json"
+                                        "licensee detect . --confidence 60 --json "
                                     ],
                                     "stdout_text": "{\"licenses\":[{\"key\":\"mit\",\"spdx_id\":\"MIT\",\"meta\":{\"title\":\"MIT License\",\"source\":\"https://spdx.org/licenses/MIT.html\",\"description\":\"A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\",\"how\":\"Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.\",\"using\":{\"Babel\":\"https://github.com/babel/babel/blob/master/LICENSE\",\".NET\":\"https://github.com/dotnet/runtime/blob/main/LICENSE.TXT\",\"Rails\":\"https://github.com/rails/rails/blob/master/MIT-LICENSE\"},\"featured\":true,\"hidden\":false,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/mit/\",\"rules\":{\"permissions\":[{\"tag\":\"commercial-use\",\"label\":\"Commercial use\",\"description\":\"The licensed material and derivatives may be used for commercial purposes.\"},{\"tag\":\"modifications\",\"label\":\"Modification\",\"description\":\"The licensed material may be modified.\"},{\"tag\":\"distribution\",\"label\":\"Distribution\",\"description\":\"The licensed material may be distributed.\"},{\"tag\":\"private-use\",\"label\":\"Private use\",\"description\":\"The licensed material may be used and modified in private.\"}],\"conditions\":[{\"tag\":\"include-copyright\",\"label\":\"License and copyright notice\",\"description\":\"A copy of the license and copyright notice must be included with the licensed material.\"}],\"limitations\":[{\"tag\":\"liability\",\"label\":\"Liability\",\"description\":\"This license includes a limitation of liability.\"},{\"tag\":\"warranty\",\"label\":\"Warranty\",\"description\":\"This license explicitly states that it does NOT provide any warranty.\"}]},\"fields\":[{\"name\":\"year\",\"description\":\"The current year\"},{\"name\":\"fullname\",\"description\":\"The full name or username of the repository owner\"}],\"other\":false,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"LICENSE\",\"content\":\"MIT License\\n\\nCopyright (c) 2020 lsmeng\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy\\nof this software and associated documentation files (the \\\"Software\\\"), to deal\\nin the Software without restriction, including without limitation the rights\\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\\ncopies of the Software, and to permit persons to whom the Software is\\nfurnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all\\ncopies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\\nSOFTWARE.\\n\",\"content_hash\":\"4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9\",\"content_normalized\":\"permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\",\"matcher\":{\"name\":\"exact\",\"confidence\":100},\"matched_license\":\"MIT\",\"attribution\":\"Copyright (c) 2020 lsmeng\"}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -522,10 +522,10 @@
                                     "name": "QC.Lic github.com/lsmeng/MUSICBP licensee",
                                     "status": "SUCCESS",
                                     "stdout_command": [
-                                        "licensee detect . --confidence 60 --json"
+                                        "licensee detect . --confidence 60 --json "
                                     ],
                                     "stdout_text": "{\"licenses\":[{\"key\":\"mit\",\"spdx_id\":\"MIT\",\"meta\":{\"title\":\"MIT License\",\"source\":\"https://spdx.org/licenses/MIT.html\",\"description\":\"A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\",\"how\":\"Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.\",\"using\":{\"Babel\":\"https://github.com/babel/babel/blob/master/LICENSE\",\".NET\":\"https://github.com/dotnet/runtime/blob/main/LICENSE.TXT\",\"Rails\":\"https://github.com/rails/rails/blob/master/MIT-LICENSE\"},\"featured\":true,\"hidden\":false,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/mit/\",\"rules\":{\"permissions\":[{\"tag\":\"commercial-use\",\"label\":\"Commercial use\",\"description\":\"The licensed material and derivatives may be used for commercial purposes.\"},{\"tag\":\"modifications\",\"label\":\"Modification\",\"description\":\"The licensed material may be modified.\"},{\"tag\":\"distribution\",\"label\":\"Distribution\",\"description\":\"The licensed material may be distributed.\"},{\"tag\":\"private-use\",\"label\":\"Private use\",\"description\":\"The licensed material may be used and modified in private.\"}],\"conditions\":[{\"tag\":\"include-copyright\",\"label\":\"License and copyright notice\",\"description\":\"A copy of the license and copyright notice must be included with the licensed material.\"}],\"limitations\":[{\"tag\":\"liability\",\"label\":\"Liability\",\"description\":\"This license includes a limitation of liability.\"},{\"tag\":\"warranty\",\"label\":\"Warranty\",\"description\":\"This license explicitly states that it does NOT provide any warranty.\"}]},\"fields\":[{\"name\":\"year\",\"description\":\"The current year\"},{\"name\":\"fullname\",\"description\":\"The full name or username of the repository owner\"}],\"other\":false,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"LICENSE\",\"content\":\"MIT License\\n\\nCopyright (c) 2020 lsmeng\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy\\nof this software and associated documentation files (the \\\"Software\\\"), to deal\\nin the Software without restriction, including without limitation the rights\\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\\ncopies of the Software, and to permit persons to whom the Software is\\nfurnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all\\ncopies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\\nSOFTWARE.\\n\",\"content_hash\":\"4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9\",\"content_normalized\":\"permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\",\"matcher\":{\"name\":\"exact\",\"confidence\":100},\"matched_license\":\"MIT\",\"attribution\":\"Copyright (c) 2020 lsmeng\"}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -658,10 +658,10 @@
                                     "name": "QC.Lic github.com/lsmeng/MUSICBP licensee",
                                     "status": "SUCCESS",
                                     "stdout_command": [
-                                        "licensee detect . --confidence 60 --json"
+                                        "licensee detect . --confidence 60 --json "
                                     ],
                                     "stdout_text": "{\"licenses\":[{\"key\":\"mit\",\"spdx_id\":\"MIT\",\"meta\":{\"title\":\"MIT License\",\"source\":\"https://spdx.org/licenses/MIT.html\",\"description\":\"A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\",\"how\":\"Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.\",\"using\":{\"Babel\":\"https://github.com/babel/babel/blob/master/LICENSE\",\".NET\":\"https://github.com/dotnet/runtime/blob/main/LICENSE.TXT\",\"Rails\":\"https://github.com/rails/rails/blob/master/MIT-LICENSE\"},\"featured\":true,\"hidden\":false,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/mit/\",\"rules\":{\"permissions\":[{\"tag\":\"commercial-use\",\"label\":\"Commercial use\",\"description\":\"The licensed material and derivatives may be used for commercial purposes.\"},{\"tag\":\"modifications\",\"label\":\"Modification\",\"description\":\"The licensed material may be modified.\"},{\"tag\":\"distribution\",\"label\":\"Distribution\",\"description\":\"The licensed material may be distributed.\"},{\"tag\":\"private-use\",\"label\":\"Private use\",\"description\":\"The licensed material may be used and modified in private.\"}],\"conditions\":[{\"tag\":\"include-copyright\",\"label\":\"License and copyright notice\",\"description\":\"A copy of the license and copyright notice must be included with the licensed material.\"}],\"limitations\":[{\"tag\":\"liability\",\"label\":\"Liability\",\"description\":\"This license includes a limitation of liability.\"},{\"tag\":\"warranty\",\"label\":\"Warranty\",\"description\":\"This license explicitly states that it does NOT provide any warranty.\"}]},\"fields\":[{\"name\":\"year\",\"description\":\"The current year\"},{\"name\":\"fullname\",\"description\":\"The full name or username of the repository owner\"}],\"other\":false,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"LICENSE\",\"content\":\"MIT License\\n\\nCopyright (c) 2020 lsmeng\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy\\nof this software and associated documentation files (the \\\"Software\\\"), to deal\\nin the Software without restriction, including without limitation the rights\\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\\ncopies of the Software, and to permit persons to whom the Software is\\nfurnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all\\ncopies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\\nSOFTWARE.\\n\",\"content_hash\":\"4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9\",\"content_normalized\":\"permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\",\"matcher\":{\"name\":\"exact\",\"confidence\":100},\"matched_license\":\"MIT\",\"attribution\":\"Copyright (c) 2020 lsmeng\"}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -794,10 +794,10 @@
                                     "name": "QC.Lic github.com/lsmeng/MUSICBP licensee",
                                     "status": "SUCCESS",
                                     "stdout_command": [
-                                        "licensee detect . --confidence 60 --json"
+                                        "licensee detect . --confidence 60 --json "
                                     ],
                                     "stdout_text": "{\"licenses\":[{\"key\":\"mit\",\"spdx_id\":\"MIT\",\"meta\":{\"title\":\"MIT License\",\"source\":\"https://spdx.org/licenses/MIT.html\",\"description\":\"A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\",\"how\":\"Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.\",\"using\":{\"Babel\":\"https://github.com/babel/babel/blob/master/LICENSE\",\".NET\":\"https://github.com/dotnet/runtime/blob/main/LICENSE.TXT\",\"Rails\":\"https://github.com/rails/rails/blob/master/MIT-LICENSE\"},\"featured\":true,\"hidden\":false,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/mit/\",\"rules\":{\"permissions\":[{\"tag\":\"commercial-use\",\"label\":\"Commercial use\",\"description\":\"The licensed material and derivatives may be used for commercial purposes.\"},{\"tag\":\"modifications\",\"label\":\"Modification\",\"description\":\"The licensed material may be modified.\"},{\"tag\":\"distribution\",\"label\":\"Distribution\",\"description\":\"The licensed material may be distributed.\"},{\"tag\":\"private-use\",\"label\":\"Private use\",\"description\":\"The licensed material may be used and modified in private.\"}],\"conditions\":[{\"tag\":\"include-copyright\",\"label\":\"License and copyright notice\",\"description\":\"A copy of the license and copyright notice must be included with the licensed material.\"}],\"limitations\":[{\"tag\":\"liability\",\"label\":\"Liability\",\"description\":\"This license includes a limitation of liability.\"},{\"tag\":\"warranty\",\"label\":\"Warranty\",\"description\":\"This license explicitly states that it does NOT provide any warranty.\"}]},\"fields\":[{\"name\":\"year\",\"description\":\"The current year\"},{\"name\":\"fullname\",\"description\":\"The full name or username of the repository owner\"}],\"other\":false,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"LICENSE\",\"content\":\"MIT License\\n\\nCopyright (c) 2020 lsmeng\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy\\nof this software and associated documentation files (the \\\"Software\\\"), to deal\\nin the Software without restriction, including without limitation the rights\\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\\ncopies of the Software, and to permit persons to whom the Software is\\nfurnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all\\ncopies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\\nSOFTWARE.\\n\",\"content_hash\":\"4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9\",\"content_normalized\":\"permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\",\"matcher\":{\"name\":\"exact\",\"confidence\":100},\"matched_license\":\"MIT\",\"attribution\":\"Copyright (c) 2020 lsmeng\"}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/70/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/70/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -943,7 +943,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "['v1.0.0']",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/79/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/79/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -987,7 +987,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "['v1.0.0']",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/79/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/79/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -1032,7 +1032,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "['v1.0.0']",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/1/execution/node/79/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/MUSICBP.git.assess.sqaaas/job/master/4/execution/node/79/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/MUSICBP.git.assess.sqaaas"
@@ -1151,9 +1151,9 @@
             "criteria": {
                 "bronze": {
                     "to_fulfill": [
-                        "QC.Doc",
                         "QC.Lic",
-                        "QC.Acc"
+                        "QC.Acc",
+                        "QC.Doc"
                     ],
                     "missing": [
                         "QC.Doc"
@@ -1165,11 +1165,11 @@
                 },
                 "silver": {
                     "to_fulfill": [
-                        "QC.Doc",
-                        "QC.Met",
                         "QC.Ver",
+                        "QC.Acc",
                         "QC.Lic",
-                        "QC.Acc"
+                        "QC.Doc",
+                        "QC.Met"
                     ],
                     "missing": [
                         "QC.Doc",
@@ -1183,19 +1183,19 @@
                 },
                 "gold": {
                     "to_fulfill": [
-                        "QC.Doc",
-                        "QC.Sty",
-                        "QC.Met",
-                        "QC.Uni",
-                        "QC.Sec",
                         "QC.Ver",
+                        "QC.Acc",
+                        "QC.Sty",
+                        "QC.Uni",
                         "QC.Lic",
-                        "QC.Acc"
+                        "QC.Doc",
+                        "QC.Sec",
+                        "QC.Met"
                     ],
                     "missing": [
-                        "QC.Doc",
                         "QC.Sty",
                         "QC.Uni",
+                        "QC.Doc",
                         "QC.Sec",
                         "QC.Met"
                     ],
