@@ -5,5 +5,5 @@
 
 (
 cd github.com/lsmeng/MUSICBP &&
-    git rev-parse --is-inside-work-tree
+    git rev-parse --is-inside-work-tree 
 )

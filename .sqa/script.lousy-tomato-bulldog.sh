@@ -5,5 +5,5 @@
 
 (
 cd github.com/lsmeng/MUSICBP &&
-    licensee detect . --confidence 60 --json
+    licensee detect . --confidence 60 --json 
 )

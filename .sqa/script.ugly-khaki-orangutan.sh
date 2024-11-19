@@ -5,5 +5,5 @@
 
 (
 cd github.com/lsmeng/MUSICBP &&
-    mdl --json .
+    mdl --json  .
 )

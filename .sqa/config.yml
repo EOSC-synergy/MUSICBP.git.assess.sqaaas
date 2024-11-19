@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.1.1
+      branch: main
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/lsmeng/MUSICBP:
       branch: master
@@ -15,32 +15,32 @@ sqa_criteria:
     repos:
       github.com/lsmeng/MUSICBP git:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-zucchini-toucan.sh
-        container: qc.acc_lanky-smalt-kakapo
+        - /usr/bin/env sh .sqa/script.flaky-cinnabar-hornet.sh
+        container: qc.acc_chewy-dandelion-boar
   QC.Doc:
     repos:
       github.com/lsmeng/MUSICBP find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-plum-bat.sh
-        container: qc.doc_scanty-coral-quokka
+        - /usr/bin/env sh .sqa/script.craggy-seashell-blue.sh
+        container: qc.doc_homey-gold-warthog
       github.com/lsmeng/MUSICBP git:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-sangria-termite.sh
-        container: qc.doc_geeky-brown-barracuda
+        - /usr/bin/env sh .sqa/script.snazzy-persimmon-dragon.sh
+        container: qc.doc_squeaky-crimson-terrier
       github.com/lsmeng/MUSICBP markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-rust-anteater.sh
-        container: qc.doc_silly-lavender-setter
+        - /usr/bin/env sh .sqa/script.ugly-khaki-orangutan.sh
+        container: qc.doc_shaky-tangerine-burmese
   QC.Lic:
     repos:
       github.com/lsmeng/MUSICBP licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-teal-boar.sh
-        container: qc.lic_pokey-chocolate-rottweiler
+        - /usr/bin/env sh .sqa/script.lousy-tomato-bulldog.sh
+        container: qc.lic_clammy-tan-terrier
   QC.Ver:
     repos:
       github.com/lsmeng/MUSICBP get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-alizarin-gerbil.sh
-        container: qc.ver_cheeky-mauve-macaw
+        - /usr/bin/env sh .sqa/script.nippy-cream-forest.sh
+        container: qc.ver_hilly-periwinkle-millipede
 timeout: 5400
